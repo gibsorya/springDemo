@@ -14,13 +14,13 @@ public class SpringInterfacesDemo implements InitializingBean, DisposableBean {
 	
 	@Override
 	public void destroy() throws Exception {
-		// TODO Auto-generated method stub
+		System.out.println("Destroy method");
 		
 	}
 
 	@Override
 	public void afterPropertiesSet() throws Exception {
-		// TODO Auto-generated method stub
+		System.out.println("Properties have been set.");
 		
 	}
 	
